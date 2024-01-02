@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function About() {
+export default function Profile() {
   return (
     <div className='max-w-6xl mx-auto'>
-        <h1>if you wanna learn more about next..</h1>
+      <h1>This is my profile learning</h1>
     </div>
   )
 }
