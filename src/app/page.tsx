@@ -6,13 +6,7 @@ export default function Home() {
       <h1>Balolewami is learning....</h1>
 
       <div className="flex gap-3 ">
-        <Link href='./blog'>Blod</Link>
-        <Link href='./about'>About</Link>
-        <Link href='./products'>Products</Link>
-        <Link href='./login'>Login</Link>
-        <Link href='./order-product'>Order</Link>
-        <Link href='./complex-dashboard'>Huge Dashboard</Link>
-        <Link href='./f1'>F-one</Link>
+        <Link href='./photo-feed'>Photo feed</Link>
       </div>
     </main>
   )
