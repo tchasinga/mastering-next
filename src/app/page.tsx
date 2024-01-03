@@ -9,6 +9,7 @@ export default function Home() {
         <Link href='./blog'>Blod</Link>
         <Link href='./about'>About</Link>
         <Link href='./products'>Products</Link>
+        <Link href='./login'>Login</Link>
       </div>
     </main>
   )
