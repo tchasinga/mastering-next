@@ -12,6 +12,7 @@ export default function Home() {
         <Link href='./login'>Login</Link>
         <Link href='./order-product'>Order</Link>
         <Link href='./complex-dashboard'>Huge Dashboard</Link>
+        <Link href='./f1'>F-one</Link>
       </div>
     </main>
   )
