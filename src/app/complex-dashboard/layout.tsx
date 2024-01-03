@@ -14,7 +14,7 @@ export default function layout({
         <div>{children}</div>
             <UserAnalytics />
             <RevenueMetrics />
-            <Notifications />
+            <Notifications /> 
     </div>
   )
 }
