@@ -4,9 +4,17 @@ import RevenueMetrics from "@/components/RevenueMetrics";
 import Notifications from "@/components/Notifications";
 
 
-export default function layout() {
+export default function layout({
+    children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <div>
+        <div>{children}</div>
+            <UserAnalytics />
+            <RevenueMetrics />
+            <Notifications />
     </div>
   )
 }
