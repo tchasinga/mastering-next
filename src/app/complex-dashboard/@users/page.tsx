@@ -1,9 +1,10 @@
+import Card from '@/components/cards'
 import React from 'react'
 
 export default function UserAnalytics() {
   return (
-    <div>
+    <Card>
       <h1>User Analytics</h1>
-    </div>
+    </Card>
   )
 }

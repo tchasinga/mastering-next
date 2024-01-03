@@ -1,9 +1,10 @@
+import Card from '@/components/cards'
 import React from 'react'
 
 export default function Notication() {
   return (
-    <div>
+    <Card>
         <h1>Notification page...</h1>
-    </div>
+    </Card>
   )
 }

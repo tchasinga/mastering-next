@@ -1,9 +1,10 @@
+import Card from '@/components/cards'
 import React from 'react'
 
 export default function RevenueMetrics() {
   return (
-    <div>
+    <Card>
       <h1>Revenue Metrics is added</h1>
-    </div>
+    </Card>
   )
 }
