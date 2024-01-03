@@ -11,6 +11,7 @@ export default function Home() {
         <Link href='./products'>Products</Link>
         <Link href='./login'>Login</Link>
         <Link href='./order-product'>Order</Link>
+        <Link href='./complex-dashboard'>Huge Dashboard</Link>
       </div>
     </main>
   )
