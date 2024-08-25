@@ -7,6 +7,8 @@ export default function Home() {
 
       <div className="flex gap-3 ">
         <Link href='./photo-feed'>Photo feed</Link>
+        <Link href='./blog'>Blogs</Link>
+        <Link href='./mainrender'>My function</Link>
       </div>
     </main>
   )
