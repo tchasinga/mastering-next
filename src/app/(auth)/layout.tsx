@@ -17,8 +17,8 @@ export default function AuthLayout({
 }) {
   const pathname = usePathname()
   return (
-    <div className='max-w-6xl mx-auto '>
-      <div className="flex gap-3">
+    <div className='max-w-6xl mx-auto'>
+      <div className="flex gap-3 mt-[10%]">
       {navLinks.map((links) =>{
         const isActive = pathname.startsWith(links.href)
         return (
@@ -28,7 +28,7 @@ export default function AuthLayout({
         )
       })}
       </div>
-      <div className='flex flex-col justify-center items-center'>
+      <div className='flex flex-col justify-center items-center my-[5%]'>
         <div className=''>
           {children}
         </div>
